@@ -1,0 +1,32 @@
+.mainClass {
+  text-align: center;
+}
+
+.expence-item {
+  display: inline-flex;
+  border: solid;
+  border-radius: 30px;
+  border-color: black;
+  margin:auto ;
+  padding: auto;
+  background-color: rgb(229, 219, 206);
+  font-size: 40px;
+}
+
+.expence-item__description {
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: 900;
+  color: rgb(169, 18, 18);
+}
+
+.expence-item__price {
+  font-weight: bold;
+  border: solid;
+  border-radius: 30px;
+  border-color: rgb(12, 11, 11);
+
+  padding: 15px;
+  margin-right: 30px;
+  background-color: #e88c0a;
+}
