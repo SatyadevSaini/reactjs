@@ -2,7 +2,7 @@ import "./Expence.css";
 import DateFormat from "./DateFormat";
 import Card from "./Card";
 
-function Expence(data) {
+const Expence = (data) => {
 
   return (
     <Card className="mainClass">

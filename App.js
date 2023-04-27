@@ -1,9 +1,9 @@
 //import logo from "./logo.svg";
 import "./App.css";
-import Expence from "./Component/ExpenceITEM";
-import Card from "./Component/Card";
+import Expence from "./Component/Expence/ExpenceITEM";
+import Card from "./Component/Expence/Card";
 
-function App() {
+const  App = () => {
   const data = [
     {
       date: new Date(2021, 3, 23),

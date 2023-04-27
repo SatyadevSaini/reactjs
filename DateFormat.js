@@ -1,7 +1,7 @@
 
 import "./formatDate.css";
 
-function DateFormat(props) {
+const DateFormat  = (props) => {
 
   const month =  props.date.toLocaleString('en-Us' , {month : 'long'});
   const day = props.date.toLocaleString('en-Us' , {day : '2-digit'});
