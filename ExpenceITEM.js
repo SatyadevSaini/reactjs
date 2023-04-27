@@ -1,14 +1,21 @@
 import "./Expence.css";
+import DateFormat from "./DateFormat";
+import Card from "./Card";
 
-function Expence() {
+function Expence(data) {
+
   return (
-    <div className="mainClass">
+    <Card className="mainClass">
       <div className="expence-item">
-        <div> Monday 23 March 2023</div>
-        <div className="expence-item__description">Car Insurnce Works</div>
-        <div className="expence-item__price"> $ 234</div>
+        <div>
+         <DateFormat
+         date = {data.date} //its pros here .. 
+         ></DateFormat>
+        </div>
+        <div className="expence-item__description">{data.title}</div>
+        <div className="expence-item__price">$ {data.price}</div>
       </div>
-    </div>
+    </Card>
   );
 }
 
